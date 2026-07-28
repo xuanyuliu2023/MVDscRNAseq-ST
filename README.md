@@ -14,14 +14,14 @@ This repository provides a **complete analysis pipeline** for processing **singl
 
 ## 📁 Repository Structure
 MVDscRNAseq-ST/
-├── scRNASeq_QC.r # Step 1: scRNA-seq quality control
-├── scRNAseq_preprocessing.R # Step 2: scRNA-seq preprocessing
-├── SpatialTranscriptomicDataProcessing.r # Step 3: Spatial data preprocessing & visualization
-├── pseudobulk_celltype.r # Step 4: Pseudobulk analysis by cell type
-├── hdWGCNA.r # Step 5: Co-expression network analysis
-├── pySCENIC_VIC.py # Step 6: Regulatory network inference
-├── scvelo.py # Step 7: RNA velocity analysis
-└── cellrank.py # Step 8: Trajectory inference using CellRank
+├── scRNASeq_QC.r          # Step 1: scRNA-seq quality control
+├── scRNAseq_preprocessing.R  # Step 2: scRNA-seq preprocessing
+├── SpatialTranscriptomicDataProcessing.r  # Step 3: Spatial data preprocessing & visualization
+├── pseudobulk_celltype.r   # Step 4: Pseudobulk analysis by cell type
+├── hdwGCNA.r              # Step 5: Co-expression network analysis
+├── pySCENIC_VIC.py         # Step 6: Regulatory network inference
+├── scvelo.py               # Step 7: RNA velocity analysis
+└── cellrank.py             # Step 8: Trajectory inference using CellRank
 
 
 ---
