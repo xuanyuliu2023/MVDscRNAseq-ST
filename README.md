@@ -13,6 +13,7 @@ This repository provides a **complete analysis pipeline** for processing **singl
 ---
 
 ## 📁 Repository Structure
+```
 MVDscRNAseq-ST/
 ├── scRNASeq_QC.r          # Step 1: scRNA-seq quality control
 ├── scRNAseq_preprocessing.R  # Step 2: scRNA-seq preprocessing
@@ -22,7 +23,7 @@ MVDscRNAseq-ST/
 ├── pySCENIC_VIC.py         # Step 6: Regulatory network inference
 ├── scvelo.py               # Step 7: RNA velocity analysis
 └── cellrank.py             # Step 8: Trajectory inference using CellRank
-
+```
 
 ---
 
