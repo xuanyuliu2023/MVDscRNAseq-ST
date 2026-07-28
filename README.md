@@ -41,7 +41,7 @@ The analysis follows a **strictly sequential workflow** from raw data to biologi
 - **Output**: Preprocessed, integrated AnnData/Seurat object (`.h5ad`)
 
 ### Step 3: Spatial Transcriptomics Processing (`SpatialTranscriptomicDataProcessing.r`)
-- **Input**: Spatial transcriptomics data (e.g., Visium or Slide-seq) and preprocessed scRNA-seq reference
+- **Input**: Spatial transcriptomics data (e.g., Visium or Slide-seq) and preprocessed scRNA-seq reference (from Step 2)
 - **Process**: Spot-level QC, spatial normalization, deconvolution using scRNA-seq reference, spatial clustering
 - **Output**: Spatial Anndata/RDS object
 
